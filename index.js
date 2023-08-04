@@ -8,7 +8,7 @@ const userRoutes = require('./routes/userRoutes');
 mongoose.set('strictQuery', false);
 
 
-mongoose.connect('mongodb+srv://shrestharahul223:shrestharahul@cluster0.jzgyqaw.mongodb.net/Shopy').then((result) => {
+mongoose.connect('mongodb+srv://shrestharahul223:moles700@cluster0.bwwo4ju.mongodb.net/Shopy').then((result) => {
   app.listen(5000);
 }).catch((err) => {
   console.log(err);
